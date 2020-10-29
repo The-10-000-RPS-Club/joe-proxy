@@ -1,0 +1,26 @@
+{
+  "name": "joe-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-10-000-RPS-Club/joe-proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-10-000-RPS-Club/joe-proxy/issues"
+  },
+  "homepage": "https://github.com/The-10-000-RPS-Club/joe-proxy#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
