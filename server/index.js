@@ -20,31 +20,31 @@ app.use((req, res, next) => {
 app.get('/api/reviews/:id/:count/:sort', (req, res) => {
   console.log(req.url);
   axios.get(`http://54.244.0.175${req.url}`)
-  .then((data) => res.send(data))
+  .then(({ data }) => res.send(data))
   .catch((err) => res.send(err));
 });
 
 app.get('/api/reviews/avg/:id', (req, res) => {
   axios.get(`http://54.244.0.175${req.url}`)
-  .then((data) => res.send(data))
+  .then(({ data }) => res.send(data))
   .catch((err) => res.send(err));
 });
 
 app.get('/api/relatedItems/:product_id', (req, res) => {
   axios.get(`http://34.208.186.96${req.url}`)
-  .then((data) => res.send(data))
+  .then(({ data }) => res.send(data))
   .catch((err) => res.send(err));
 });
 
 app.get('/api/products/:id', (req, res) => {
   axios.get(`http://52.10.142.6${req.url}`)
-  .then((data) => res.send(data))
+  .then(({ data }) => res.send(data))
   .catch((err) => res.send(err));
 });
 
 app.get('/api/questions/:id', (req, res) => {
   axios.get(`http://3.138.228.145${req.url}`)
-  .then((data) => res.send(data))
+  .then(({ data }) => res.send(data))
   .catch((err) => res.send(err));
 });
 
