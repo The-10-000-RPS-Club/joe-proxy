@@ -20,7 +20,9 @@
   "homepage": "https://github.com/The-10-000-RPS-Club/joe-proxy#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
